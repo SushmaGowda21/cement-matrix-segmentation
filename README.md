@@ -58,7 +58,7 @@ If you want to augment the dataset and split it into training and testing sets, 
   - Use the annotation.py script to generate annotations for your dataset. Ensure that all annotations are in COCO format if needed.
   - Convert annotations from COCO to YOLO format:
 
-3. **coco_to_Yolo.py **:
+3. **coco_to_Yolo.py**:
   -Run the coco_to_Yolo.py script to convert COCO annotations into YOLOv8 format**:
   - This script will save the converted annotations in the appropriate folder, ready for YOLOv8 training.
 
