@@ -51,7 +51,7 @@ If you want to augment the dataset and split it into training and testing sets, 
 
 1. **Run the augmentation script**:
    - Use the provided `augmentation.py` script to automatically augment the data. This script will augment the images and save them in the `input/` folder.
-   - Then split the data according to an 80-20 rule (80% for training, 20% for testing).
+   - Then split the data according to an 80-20 rule (80% for training, 20% for validation).
 
 2. **Annotate your data**:
 
