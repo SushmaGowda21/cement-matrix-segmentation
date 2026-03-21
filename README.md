@@ -1,6 +1,27 @@
-# cement-matrix-segmentation
-This repository contains code and resources for segmenting the cement matrix in images using advanced image processing and machine learning techniques.
-The goal is to accurately identify and classify different components of the cement matrix.
+# Cement Matrix Segmentation using YOLOv8
+
+This project focuses on segmenting cement matrix components from microscopic images using YOLOv8. The model identifies and classifies different regions within the cement matrix to support material analysis.
+
+---
+
+## 🚀 Features
+
+- Object detection and segmentation using YOLOv8
+- Data preprocessing and augmentation
+- Custom dataset training (microscopic concrete images)
+- COCO to YOLO format conversion
+- Visualization of predictions
+
+---
+## 🛠️ Tech Stack
+
+- Python
+- YOLOv8 (Ultralytics)
+- OpenCV
+- NumPy
+- Google Colab
+
+---
 
 ## Project Structure
 Cement-matrix-segmentation/ │ ├── ColabNotebooks/
@@ -25,9 +46,13 @@ Cement-matrix-segmentation/ │ ├── ColabNotebooks/
 
 ---
 
-## Training the YOLOv8 Model
+## ⚙️ How to Run
 
-To train the YOLOv8 model, follow the steps below. You can directly copy the entire Colab notebook from this repository and start training the model by adjusting the paths and the `yaml` file.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/cement-matrix-segmentation.git
+
+
 
 ### Step 1: Copy the Colab Notebook and Upload Data
 
