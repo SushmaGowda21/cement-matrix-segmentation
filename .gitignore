@@ -1,0 +1,26 @@
+# Python / editor
+__pycache__/
+*.pyc
+.vscode/
+.env
+
+# Data / outputs (large)
+data/raw_data/
+data/augmented_data/
+data/yolo_format_data/
+notebook/data/YOLOV8-data/results/
+
+# Models / weights
+models/
+**/weights/
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,9 +1,0 @@
-names:
-- cracks
-- cement_matrix
-- gravel_crushed_stones
-- air_pores
-nc: 4
-test: /content/drive/MyDrive/ColabNotebooks/data/Test_images
-train: /content/drive/MyDrive/ColabNotebooks/data/YOLOV8-data/train/images
-val: /content/drive/MyDrive/ColabNotebooks/data/YOLOV8-data/valid/images
