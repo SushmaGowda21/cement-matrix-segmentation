@@ -113,7 +113,9 @@ Example outputs are available in the results/ folder.
 Only sample data is included in this repository for demonstration.
 Full dataset was used during training but is not included due to size constraints.
 The project demonstrates the end-to-end ML pipeline for image segmentation.
-👩‍💻 Author
+
+
+#👩‍💻 Author
 
 Sushma Gowda
 M.Sc. Digital Engineering, Germany
