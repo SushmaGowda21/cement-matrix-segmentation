@@ -118,34 +118,3 @@ The project demonstrates the end-to-end ML pipeline for image segmentation.
 Sushma Gowda
 M.Sc. Digital Engineering, Germany
 
-⭐ Summary
-
-This project demonstrates a complete computer vision pipeline, covering:
-
-- Data preparation
-- Feature engineering via augmentation
-- Annotation processing
-- Model training and evaluation
-
-It highlights practical experience in deep learning, data pipelines, and real-world ML workflows.
-
-# 📌 Notes
-- Only sample data is included in this repository for demonstration.
-- Full dataset was used during training but is not included due to size constraints.
-- The project demonstrates the end-to-end ML pipeline for image segmentation.
-
-# 👩‍💻 Author
-
-Sushmarani H K
-M.Sc. Digital Engineering, Germany
-
-# ⭐ Summary
-
-This project demonstrates a complete computer vision pipeline, covering:
-
-- Data preparation
-- Feature engineering via augmentation
-- Annotation processing
-- Model training and evaluation
-
-It highlights practical experience in deep learning, data pipelines, and real-world ML workflows.
