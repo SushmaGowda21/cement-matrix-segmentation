@@ -92,13 +92,12 @@ python scripts/coco_to_yolo.py
 5. Train model
 
  Run the notebook:
- 
+ ```bash
  notebook/Training_yolo_V8_microscopic_concrete.ipynb
-
+```
 
 # Results
 
-Results
 
 The model performance is evaluated using:
 
