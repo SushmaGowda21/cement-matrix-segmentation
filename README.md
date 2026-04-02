@@ -96,22 +96,84 @@ python scripts/coco_to_yolo.py
  notebook/Training_yolo_V8_microscopic_concrete.ipynb
 ```
 
-# Results
+## 📈 Results & Evaluation
 
+The YOLOv8 segmentation model was evaluated on microscopic concrete images using multiple performance metrics and visual analysis.
 
-The model performance is evaluated using:
+---
 
-Precision–Recall curves
-F1-score curves
-Confusion matrix
-Sample prediction outputs
+### 📊 Quantitative Results
 
-Example outputs are available in the results/ folder.
+The model achieved strong performance across most classes:
 
-📌 Notes
-Only sample data is included in this repository for demonstration.
-Full dataset was used during training but is not included due to size constraints.
-The project demonstrates the end-to-end ML pipeline for image segmentation.
+- **Cement Matrix:** ~96% accuracy (highest performing class)
+- **Gravel / Crushed Stones:** ~89% accuracy
+- **Cracks:** ~81% accuracy
+- **Air Pores:** ~100% accuracy (limited samples)
+
+---
+
+### 📉 Key Observations
+
+- The model performs very well on structured regions such as cement matrix and aggregates.
+- Cracks are slightly more challenging due to thin and irregular shapes.
+- Some confusion exists between object classes and background:
+  - Objects occasionally predicted as background (false negatives)
+  - Background sometimes misclassified as objects (false positives)
+
+---
+
+### 📊 Evaluation Metrics
+
+The model was evaluated using:
+
+- **IoU (Intersection over Union)**
+- **mIoU (mean IoU across classes)**
+- **Precision**
+- **Recall**
+- **F1-score**
+- **mAP (mean Average Precision)**
+
+#### IoU Formula
+
+IoU = Area of Overlap / Area of Union
+
+This metric measures how well the predicted segmentation matches the ground truth.
+
+---
+
+### 📈 Training Performance
+
+- Training and validation losses decreased steadily, indicating stable learning.
+- Precision and recall improved consistently over epochs.
+- mAP50 and mAP50–95 scores showed strong convergence.
+
+---
+
+### 🖼️ Visual Results
+
+The model successfully segments:
+
+- Cracks (thin structures)
+- Cement matrix regions
+- Aggregates (gravel/crushed stones)
+- Air pores
+
+Example predictions are available in the `results/` folder.
+
+---
+
+### ⚠️ Limitations
+
+- Some false positives in background regions
+- Slight misclassification between visually similar textures
+- Performance depends on image quality and annotation accuracy
+
+---
+
+### ✅ Conclusion
+
+The model demonstrates strong capability in segmenting cement matrix components and provides a reliable foundation for automated material analysis in microscopic images.
 
 
 👩‍💻 Author
