@@ -99,6 +99,7 @@ python scripts/coco_to_yolo.py
 ## 📈 Results & Evaluation
 
 The YOLOv8 segmentation model was evaluated on microscopic concrete images using multiple performance metrics and visual analysis.
+Analysed per-class confusion matrix and identified that 18% of cracks and 10% of gravel were misclassified as background, using these gaps to guide targeted dataset improvements and annotation refinement.
 
 ---
 
